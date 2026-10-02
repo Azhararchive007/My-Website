@@ -1,0 +1,473 @@
+<!DOCTYPE html> <html lang="en"> <head>
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Saved Properties | PropertyHub</title>
+
+<link rel="preconnect"
+      href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.googleapis.com"
+      crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+<link rel="stylesheet"
+      href="css/style.css">
+
+</head> <body>
+<!-- ========================================
+     HEADER
+========================================= -->
+
+<header>
+
+    <h1>PropertyHub</h1>
+
+
+    <nav>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="listings.html">
+            Buy
+        </a>
+
+        <a href="listings.html">
+            Rent
+        </a>
+
+        <a href="agents.html">
+            Agents
+        </a>
+
+        <a href="about.html">
+            About
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+    </nav>
+
+
+    <div class="header-account-links">
+
+        <a href="favorites.html"
+           class="saved-link">
+
+            ♡ Saved
+
+        </a>
+
+        <a href="dashboard.html"
+           class="account-link">
+
+            My Account
+
+        </a>
+
+    </div>
+
+</header>
+
+
+
+<!-- ========================================
+     MAIN
+========================================= -->
+
+<main>
+
+
+    <!-- ========================================
+         PAGE INTRO
+    ========================================= -->
+
+    <section class="saved-hero">
+
+        <div>
+
+            <p class="saved-label">
+                YOUR COLLECTION
+            </p>
+
+            <h2>
+                Saved Properties
+            </h2>
+
+            <p>
+                Keep track of properties you're interested
+                in and come back to them whenever you're ready.
+            </p>
+
+        </div>
+
+
+        <a href="listings.html"
+           class="saved-browse-button">
+
+            Browse Properties →
+
+        </a>
+
+    </section>
+
+
+
+    <!-- ========================================
+         SAVED PROPERTIES
+    ========================================= -->
+
+    <section class="saved-properties-section">
+
+
+        <div class="saved-heading">
+
+            <div>
+
+                <p class="saved-label">
+                    03 SAVED
+                </p>
+
+                <h3>
+                    Your Shortlist
+                </h3>
+
+            </div>
+
+
+            <div class="saved-sort">
+
+                <label for="saved-sort">
+                    Sort by
+                </label>
+
+                <select id="saved-sort">
+
+                    <option>
+                        Recently Saved
+                    </option>
+
+                    <option>
+                        Price: Low to High
+                    </option>
+
+                    <option>
+                        Price: High to Low
+                    </option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="saved-property-grid">
+
+
+            <!-- PROPERTY 1 -->
+
+            <article class="saved-property-card">
+
+
+                <div class="saved-property-image">
+
+                    <img
+                        src="images/properties/house-1.jpg"
+                        alt="Modern family house">
+
+                    <span class="saved-status">
+                        FOR SALE
+                    </span>
+
+                    <button
+                        type="button"
+                        class="remove-saved"
+                        aria-label="Remove property from saved">
+
+                        ♥
+                        
+                    </button>
+
+                </div>
+
+
+                <div class="saved-property-info">
+
+                    <div class="saved-property-top">
+
+                        <div>
+
+                            <p class="saved-property-type">
+                                HOUSE
+                            </p>
+
+                            <h4>
+                                Modern Family Residence
+                            </h4>
+
+                        </div>
+
+                    </div>
+
+
+                    <p class="saved-location">
+                        DHA Phase 6, Lahore
+                    </p>
+
+
+                    <div class="saved-details">
+
+                        <span>
+                            4 Beds
+                        </span>
+
+                        <span>
+                            4 Baths
+                        </span>
+
+                        <span>
+                            3,200 sq ft
+                        </span>
+
+                    </div>
+
+
+                    <div class="saved-card-bottom">
+
+                        <strong>
+                            $385,000
+                        </strong>
+
+                        <a href="property.html">
+                            View Property →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PROPERTY 2 -->
+
+            <article class="saved-property-card">
+
+
+                <div class="saved-property-image">
+
+                    <img
+                        src="images/properties/house-2.jpg"
+                        alt="Luxury city apartment">
+
+                    <span class="saved-status">
+                        FOR RENT
+                    </span>
+
+                    <button
+                        type="button"
+                        class="remove-saved"
+                        aria-label="Remove property from saved">
+
+                        ♥
+
+                    </button>
+
+                </div>
+
+
+                <div class="saved-property-info">
+
+                    <p class="saved-property-type">
+                        APARTMENT
+                    </p>
+
+                    <h4>
+                        Luxury City Apartment
+                    </h4>
+
+
+                    <p class="saved-location">
+                        Clifton, Karachi
+                    </p>
+
+
+                    <div class="saved-details">
+
+                        <span>
+                            3 Beds
+                        </span>
+
+                        <span>
+                            3 Baths
+                        </span>
+
+                        <span>
+                            1,850 sq ft
+                        </span>
+
+                    </div>
+
+
+                    <div class="saved-card-bottom">
+
+                        <strong>
+                            $1,800 / month
+                        </strong>
+
+                        <a href="property.html">
+                            View Property →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PROPERTY 3 -->
+
+            <article class="saved-property-card">
+
+
+                <div class="saved-property-image">
+
+                    <img
+                        src="images/properties/house-3.jpg"
+                        alt="Contemporary villa">
+
+                    <span class="saved-status">
+                        FOR SALE
+                    </span>
+
+                    <button
+                        type="button"
+                        class="remove-saved"
+                        aria-label="Remove property from saved">
+
+                        ♥
+
+                    </button>
+
+                </div>
+
+
+                <div class="saved-property-info">
+
+                    <p class="saved-property-type">
+                        VILLA
+                    </p>
+
+                    <h4>
+                        Contemporary Garden Villa
+                    </h4>
+
+
+                    <p class="saved-location">
+                        Bahria Town, Lahore
+                    </p>
+
+
+                    <div class="saved-details">
+
+                        <span>
+                            5 Beds
+                        </span>
+
+                        <span>
+                            5 Baths
+                        </span>
+
+                        <span>
+                            4,100 sq ft
+                        </span>
+
+                    </div>
+
+
+                    <div class="saved-card-bottom">
+
+                        <strong>
+                            $495,000
+                        </strong>
+
+                        <a href="property.html">
+                            View Property →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================
+         EMPTY STATE PREVIEW
+    ========================================= -->
+
+    <section class="saved-info">
+
+        <div class="saved-info-number">
+            +
+        </div>
+
+        <div>
+
+            <h3>
+                Keep Exploring
+            </h3>
+
+            <p>
+                Save properties that catch your eye.
+                Your shortlist makes it easier to compare
+                your favorite homes before making a decision.
+            </p>
+
+        </div>
+
+        <a href="listings.html">
+            Explore Listings →
+        </a>
+
+    </section>
+
+
+</main>
+
+
+
+<!-- ========================================
+     FOOTER
+========================================= -->
+
+<footer>
+
+    <p>
+        © 2026 PropertyHub. All rights reserved.
+    </p>
+
+</footer>
+
+</body> </html>

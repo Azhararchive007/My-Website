@@ -1,0 +1,328 @@
+<!DOCTYPE html> <html lang="en"> <head>
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Create Account | PropertyHub</title>
+
+<link rel="preconnect"
+      href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.googleapis.com"
+      crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+<link rel="stylesheet"
+      href="css/style.css">
+
+</head> <body class="account-page">
+<!-- ========================================
+     ACCOUNT HEADER
+========================================= -->
+
+<header class="account-header">
+
+    <a href="index.html"
+       class="account-logo">
+
+        PropertyHub
+
+    </a>
+
+
+    <a href="login.html"
+       class="back-home">
+
+        ← Back to Login
+
+    </a>
+
+</header>
+
+
+
+<!-- ========================================
+     REGISTER
+========================================= -->
+
+<main class="account-main">
+
+
+    <section class="account-container">
+
+
+        <div class="account-intro">
+
+            <p class="account-label">
+                JOIN PROPERTYHUB
+            </p>
+
+            <h1>
+                Create your account.
+            </h1>
+
+            <p>
+                Save properties, manage enquiries and
+                keep track of your property search.
+            </p>
+
+        </div>
+
+
+
+        <div class="account-card">
+
+
+            <form action="#"
+                  method="post"
+                  class="account-form">
+
+
+                <!-- NAME -->
+
+                <div class="form-row">
+
+
+                    <div class="form-group">
+
+                        <label for="register-first-name">
+                            First Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="register-first-name"
+                            name="first-name"
+                            placeholder="First name"
+                            required>
+
+                    </div>
+
+
+
+                    <div class="form-group">
+
+                        <label for="register-last-name">
+                            Last Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="register-last-name"
+                            name="last-name"
+                            placeholder="Last name"
+                            required>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- EMAIL -->
+
+                <div class="form-group">
+
+                    <label for="register-email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="register-email"
+                        name="email"
+                        placeholder="you@example.com"
+                        required>
+
+                </div>
+
+
+
+                <!-- PHONE -->
+
+                <div class="form-group">
+
+                    <label for="register-phone">
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="register-phone"
+                        name="phone"
+                        placeholder="+92 300 0000000">
+
+                </div>
+
+
+
+                <!-- ACCOUNT TYPE -->
+
+                <div class="form-group">
+
+                    <label for="account-type">
+                        I Am A
+                    </label>
+
+                    <select
+                        id="account-type"
+                        name="account-type"
+                        required>
+
+                        <option value="">
+                            Select account type
+                        </option>
+
+                        <option value="buyer">
+                            Buyer
+                        </option>
+
+                        <option value="renter">
+                            Renter
+                        </option>
+
+                        <option value="seller">
+                            Property Owner / Seller
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- PASSWORD -->
+
+                <div class="form-group">
+
+                    <label for="register-password">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="register-password"
+                        name="password"
+                        placeholder="Create a password"
+                        required>
+
+                </div>
+
+
+
+                <!-- CONFIRM PASSWORD -->
+
+                <div class="form-group">
+
+                    <label for="confirm-password">
+                        Confirm Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        name="confirm-password"
+                        placeholder="Confirm your password"
+                        required>
+
+                </div>
+
+
+
+                <!-- TERMS -->
+
+                <label class="form-checkbox">
+
+                    <input
+                        type="checkbox"
+                        name="terms"
+                        required>
+
+                    <span>
+                        I agree to the PropertyHub
+                        Terms of Service and Privacy Policy.
+                    </span>
+
+                </label>
+
+
+
+                <!-- SUBMIT -->
+
+                <button
+                    type="submit"
+                    class="account-submit">
+
+                    Create Account
+
+                    <span>→</span>
+
+                </button>
+
+
+            </form>
+
+
+
+            <!-- DIVIDER -->
+
+            <div class="account-divider">
+
+                <span>
+                    ALREADY A MEMBER?
+                </span>
+
+            </div>
+
+
+
+            <p class="account-register-text">
+
+                Already have an account?
+
+                <a href="login.html">
+                    Sign In
+                </a>
+
+            </p>
+
+
+        </div>
+
+
+
+        <p class="account-note">
+
+            Your account information is used to provide
+            marketplace features such as saved properties
+            and property enquiries.
+
+        </p>
+
+
+    </section>
+
+
+</main>
+
+
+
+<!-- ========================================
+     FOOTER
+========================================= -->
+
+<footer>
+
+    <p>
+        © 2026 PropertyHub. All rights reserved.
+    </p>
+
+</footer>
+
+</body> </html>
