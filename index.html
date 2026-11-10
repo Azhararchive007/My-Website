@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,17 +10,17 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Property<span style="color: rgb(61, 61, 255);">Hub</span></h1>
+        <h1><span class="brand-name">Property<span class="brand-hub" style="color: rgb(13, 123, 202);">Hub</span></span></h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="listings.html">Buy</a>
@@ -50,13 +51,368 @@
         </section>
 
 
-        <section>
+        <!-- HOME PAGE CONTENT STARTS HERE -->
 
-            <h2>Featured Properties</h2>
+        <section class="home-content">
 
-            <!-- Property cards will go here later -->
+            <!-- 1. PROPERTY SERVICES -->
+
+            <section class="services-section">
+
+                <div class="section-heading">
+                    <span class="section-tag">OUR SERVICES</span>
+                    <h2>What Are You Looking For?</h2>
+                    <p>Whether you want to buy, rent or list a property, PropertyHub makes it easier.</p>
+                </div>
+
+                <div class="services-grid">
+
+                    <div class="service-card">
+                        <div class="service-icon">🏡</div>
+                        <h3>Buy a Property</h3>
+                        <p>Explore houses, apartments and other properties available for sale.</p>
+                        <a href="listings.html">Explore Properties →</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🔑</div>
+                        <h3>Rent a Property</h3>
+                        <p>Find comfortable homes and apartments available for rent.</p>
+                        <a href="listings.html">Find Rentals →</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🏠</div>
+                        <h3>Sell Your Property</h3>
+                        <p>List your property and connect with potential buyers.</p>
+                        <a href="sell.html">Sell Property →</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">📋</div>
+                        <h3>Put Property on Rent</h3>
+                        <p>List your property and find interested tenants easily.</p>
+                        <a href="sell.html">List for Rent →</a>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- 2. FEATURED PROPERTIES -->
+
+            <section class="featured-section">
+
+                <div class="section-heading">
+                    <span class="section-tag">HANDPICKED FOR YOU</span>
+                    <h2>Featured Properties</h2>
+                    <p>Explore some of the properties available on PropertyHub.</p>
+                </div>
+
+                <div class="property-grid">
+
+                    <div class="property-card">
+
+                        <div class="property-image">
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Modern family house">
+                            <span class="property-badge">For Sale</span>
+                        </div>
+
+                        <div class="property-info">
+                            <h3>Modern Family House</h3>
+                            <h4>PKR 4.5 Crore</h4>
+                            <p>📍 DHA Phase 6, Karachi</p>
+
+                            <div class="property-details">
+                                <span>🛏 4 Beds</span>
+                                <span>🛁 3 Baths</span>
+                                <span>📐 250 Sq Yd</span>
+                            </div>
+
+                            <a href="listings.html" class="property-btn">View Details</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="property-card">
+
+                        <div class="property-image">
+                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Luxury apartment">
+                            <span class="property-badge rent-badge">For Rent</span>
+                        </div>
+
+                        <div class="property-info">
+                            <h3>Luxury Modern Apartment</h3>
+                            <h4>PKR 85,000 / Month</h4>
+                            <p>📍 Clifton Block 5, Karachi</p>
+
+                            <div class="property-details">
+                                <span>🛏 2 Beds</span>
+                                <span>🛁 2 Baths</span>
+                                <span>📐 1200 Sq Ft</span>
+                            </div>
+
+                            <a href="listings.html" class="property-btn">View Details</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="property-card">
+
+                        <div class="property-image">
+                            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=80" alt="Contemporary luxury home">
+                            <span class="property-badge">For Sale</span>
+                        </div>
+
+                        <div class="property-info">
+                            <h3>Contemporary Luxury Home</h3>
+                            <h4>PKR 6.2 Crore</h4>
+                            <p>📍 Gulshan-e-Iqbal, Karachi</p>
+
+                            <div class="property-details">
+                                <span>🛏 5 Beds</span>
+                                <span>🛁 4 Baths</span>
+                                <span>📐 300 Sq Yd</span>
+                            </div>
+
+                            <a href="listings.html" class="property-btn">View Details</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="view-all">
+                    <a href="listings.html">View All Properties →</a>
+                </div>
+
+            </section>
+
+
+            <!-- 3. PROPERTY CATEGORIES -->
+
+            <section class="categories-section">
+
+                <div class="section-heading">
+                    <span class="section-tag">EXPLORE OPTIONS</span>
+                    <h2>Explore Property Types</h2>
+                    <p>Find the right type of property that matches your needs.</p>
+                </div>
+
+                <div class="categories-grid">
+
+                    <a href="listings.html" class="category-card">
+                        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=700&q=80" alt="Houses">
+                        <div class="category-overlay">
+                            <h3>Houses</h3>
+                            <span>Explore Houses →</span>
+                        </div>
+                    </a>
+
+                    <a href="listings.html" class="category-card">
+                        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=700&q=80" alt="Apartments">
+                        <div class="category-overlay">
+                            <h3>Apartments</h3>
+                            <span>Explore Apartments →</span>
+                        </div>
+                    </a>
+
+                    <a href="listings.html" class="category-card">
+                        <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=700&q=80" alt="Villas">
+                        <div class="category-overlay">
+                            <h3>Villas</h3>
+                            <span>Explore Villas →</span>
+                        </div>
+                    </a>
+
+                    <a href="listings.html" class="category-card">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=80" alt="Commercial properties">
+                        <div class="category-overlay">
+                            <h3>Commercial</h3>
+                            <span>Explore Commercial →</span>
+                        </div>
+                    </a>
+
+                    <a href="listings.html" class="category-card">
+                        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=700&q=80" alt="Plots and land">
+                        <div class="category-overlay">
+                            <h3>Plots & Land</h3>
+                            <span>Explore Plots →</span>
+                        </div>
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- 4. AGENTS SECTION -->
+
+            <section class="agents-section">
+
+                <div class="section-heading">
+                    <span class="section-tag">MEET OUR TEAM</span>
+                    <h2>Connect With Our Agents</h2>
+                    <p>Get assistance from our agents and find more information about your interested property.</p>
+                </div>
+
+                <div class="agents-grid">
+
+                    <div class="agent-card">
+                        <img src="images/agents/agent-2.jpg">
+                        <h3>Ghulam Ahmed</h3>
+                        <p>Residential Property Agent</p>
+                        <a href="agents.html">View Profile →</a>
+                    </div>
+
+                    <div class="agent-card">
+                        <img src="images/agents/agent-1.jpg">
+                        <h3>Riyyan Ibrahim</h3>
+                        <p>Rental Property Agent</p>
+                        <a href="agents.html">View Profile →</a>
+                    </div>
+
+                    <div class="agent-card">
+                        <img src="images/agents/agent-3.jpg">
+                        <h3>Hamza Khan</h3>
+                        <p>Commercial Property Agent</p>
+                        <a href="agents.html">View Profile →</a>
+                    </div>
+
+                </div>
+
+                <div class="view-all">
+                    <a href="agents.html">Meet All Agents →</a>
+                </div>
+
+            </section>
+
+
+            <!-- 5. HOW IT WORKS -->
+
+            <section class="how-section">
+
+                <div class="section-heading">
+                    <span class="section-tag">SIMPLE PROCESS</span>
+                    <h2>How Property<span style="color: rgb(13, 123, 202);">Hub</span> Works</h2>
+                    <p>Finding your next property is simple with our easy process.</p>
+                </div>
+
+                <div class="steps-grid">
+
+                    <div class="step-card">
+                        <div class="step-number">01</div>
+                        <h3>Explore Properties</h3>
+                        <p>Browse available houses, apartments and other properties.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">02</div>
+                        <h3>View Property Details</h3>
+                        <p>Check prices, locations, images and property information.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">03</div>
+                        <h3>Contact an Agent</h3>
+                        <p>Connect with an agent to ask questions and get more details.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">04</div>
+                        <h3>Schedule a Visit</h3>
+                        <p>Arrange a property visit and move towards your next home.</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- 6. WHY CHOOSE US -->
+
+            <section class="why-section">
+
+                <div class="why-content">
+
+                    <div class="why-text">
+                        <span class="section-tag">WHY PROPERTYHUB?</span>
+                        <h2>Making Property Searching Easier For Everyone</h2>
+                        <p>
+                            Whether you are looking for your dream home,
+                            searching for a rental property or planning
+                            to list your own property, PropertyHub brings
+                            property options and agent assistance together
+                            in one place.
+                        </p>
+
+                        <a href="about.html" class="why-btn">Learn More About Us</a>
+                    </div>
+
+                    <div class="why-features">
+
+                        <div class="why-feature">
+                            <span>🏘️</span>
+                            <div>
+                                <h3>Multiple Property Options</h3>
+                                <p>Explore different types of properties in one place.</p>
+                            </div>
+                        </div>
+
+                        <div class="why-feature">
+                            <span>🔍</span>
+                            <div>
+                                <h3>Easy Property Discovery</h3>
+                                <p>Find properties according to your needs and preferences.</p>
+                            </div>
+                        </div>
+
+                        <div class="why-feature">
+                            <span>🤝</span>
+                            <div>
+                                <h3>Agent Assistance</h3>
+                                <p>Get in touch with agents for property-related information.</p>
+                            </div>
+                        </div>
+
+                        <div class="why-feature">
+                            <span>📢</span>
+                            <div>
+                                <h3>Simple Property Listing</h3>
+                                <p>Submit your property for sale or rent.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- 7. LIST YOUR PROPERTY CTA -->
+
+            <section class="listing-cta">
+
+                <div class="cta-content">
+                    <span class="section-tag">HAVE A PROPERTY?</span>
+                    <h2>Ready to Sell or Rent Your Property?</h2>
+                    <p>
+                        List your property on PropertyHub and connect
+                        with potential buyers and tenants.
+                    </p>
+
+                    <a href="sell.html">List Your Property →</a>
+                </div>
+
+            </section>
 
         </section>
+
+        <!-- HOME PAGE CONTENT ENDS HERE -->
 
     </main>
 
